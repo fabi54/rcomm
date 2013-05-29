@@ -1,0 +1,88 @@
+%% PLEASE DON'T CHANGE BELOW
+\documentclass[10pt, twoside]{article}
+\usepackage[paperwidth=17cm,paperheight=24cm,textheight=18cm]{geometry}
+\pagestyle{empty} % Header and footer set by master document
+\date{}           % no date for article, only for proceedings
+%% PLEASE DON'T CHANGE ABOVE
+
+% START EDITING HERE
+
+% your title
+\title{\LARGE \bfseries Visual Data Mining Using New RapidMiner Extensions}
+
+% author(s)
+\author{Jan Fabi\'{a}n \and Jan Motl
+%\\Faculty of Information Technology\\
+%Czech Technical University in Prague
+}
+
+\begin{document}
+\maketitle\thispagestyle{empty}
+
+\begin{abstract}
+TBD.
+Also fix the ``institute'' problem in author field.
+\end{abstract}
+
+\section{Introduction}
+
+Information visualization is an effective and natural way to express data
+and to make complex systems easier to understand.
+This holds fully for data sets as well as for their models when talking about data mining.
+
+RapidMiner has come with a decent possibilities for visualizing
+multidimensional data for example, however, it has lacked
+a universal straightforward tool for model visualization,
+if not considering workarounds with creating data set with predicted labels.
+[TODO: MENTION SOM]
+
+In this paper, we present new possibilities of visual data mining in RapidMiner,
+provided by two extensions -- the Self-Organizing Map and the Model Visualization Extension.
+
+\subsection{Paper Structure}
+
+...
+
+\section{Self Organizing Map}
+
+...
+
+\section{Model Visualization}
+
+\subsection{Motivation}
+
+We might find interpretation of some types of models quite easy (e.g. decision trees),
+however, there are other ones, for which these efforts are usually much less successfull
+(e.g. neural nets, model ensembles).
+Nevertheless, comprehensible model behaviour is a quite typical request on the output of the data mining process.
+
+Structural visualization might help sometimes (once again, let's mention the decision trees),
+however, in other cases (neural nets), it won't bring us any closer to our objective.
+For the latter types of models, which we can consider ``black-box'' ones,
+visualizations based on sensitivity analysis can provide a useful insight to the model behaviour.
+
+The aim of the presented plugin was to fill in the existing gap
+and to provide an easy way of inspecting any type of learned prediction model,
+independently on its type.
+In addition, with a focus on automation, an algorithm searching for
+what is beleived to be areas of user's interest (in terms of the actual visualization setting) is provided.
+
+\subsection{Visualizing Model Behaviour Using Sensitivity Analysis}
+
+\section{Automated Visualization Optimization}
+
+\subsection{Motivation}
+
+\subsection{Estimating Model Reliability}
+
+\subsection{Measuring Visualization Quality}
+
+\subsection{The Genetic Algorithm}
+
+\section{Described Features in RapidMiner Extensions}
+
+\section{Future Work}
+
+\section{Conclusion}
+
+\end{document}
